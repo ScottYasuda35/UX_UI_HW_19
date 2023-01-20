@@ -9,17 +9,36 @@ body {
     background-color: #99A885;
     padding: 15px;
   }
-  header ul {
-    float: right;
-    color: white;
+  .w3-top {
+    top: 0;
   }
-  header li {
-    display: inline-block;
-    padding: 0px 5px;
-    color: black;
+  .w3-top, .w3-bottom {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
   }
-  header p {
+  .w3-padding {
+    padding: 8px 16px!important;
+  }
+  .w3-btn, .w3-button {
+    border: none;
     display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+  }
+  .w3-black, .w3-hover-black:hover {
+      color: #fff!important;
+      background-color: #000!important;
+  }
+  .w3-cols3 {
+    width: 24.99999%;
   }
   .heroImg {
     background-color: #FDEDCF;
